@@ -42,10 +42,17 @@ build/output/
 
 # Nested public copy must not re-embed a second .git
 rr-weather-dl-only-public/.git/
--e 
+
+# Python (backend) local envs
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Web stack (frontend) build output
+frontend/build/
+
 # Environment and credential files
-.env
-.env.*
 *.env
 credentials.json
 *.pem

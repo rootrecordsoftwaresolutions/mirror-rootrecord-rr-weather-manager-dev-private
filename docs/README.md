@@ -5,6 +5,7 @@ These pages are for people (or tools) **shipping or changing** Root Record Weath
 | Doc | Use when |
 |-----|----------|
 | [ARCHITECTURE.md](./ARCHITECTURE.md) | You need a map of processes, modules, and IPC. |
+| [FRONTEND-AND-BACKEND.md](./FRONTEND-AND-BACKEND.md) | **React + FastAPI** stack in `frontend/` and `backend/` (not the Electron binary). |
 | [DEVELOPMENT.md](./DEVELOPMENT.md) | First-time setup, environment variables, data locations. |
 | [BUILD-AND-RELEASE.md](./BUILD-AND-RELEASE.md) | Build installers, `latest.yml`, and publishing to the public **download** org. |
 | [SIGNING-TRUSTED-AZURE.md](./SIGNING-TRUSTED-AZURE.md) | **Authenticode** / **Azure** signing entry points (`build/` scripts, no secrets in Git). |
